@@ -224,12 +224,6 @@ Contributions are welcome! Areas for improvement:
 - Advanced visualization techniques
 - Cross-validation framework
 
-## 📚 References
-
-- Cover, T., & Hart, P. (1967). Nearest neighbor pattern classification
-- Hastie, T., Tibshirani, R., & Friedman, J. (2009). The Elements of Statistical Learning
-- Wisconsin Breast Cancer Dataset: UCI Machine Learning Repository
-
 ## 📄 License
 
 This project is part of the Machine Learning From Scratch collection and follows the same MIT License.
