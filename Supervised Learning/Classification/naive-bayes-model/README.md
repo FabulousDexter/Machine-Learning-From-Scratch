@@ -17,7 +17,7 @@ The dataset contains breast cancer diagnostic features with the following charac
 
 - **Total Samples**: 569 cases
 - **Features**: 30 numerical features (mean, standard error, and worst values for 10 real-valued features)
-- **Target Classes**: 
+- **Target Classes**: +
   - `B` - Benign (non-cancerous)
   - `M` - Malignant (cancerous)
 - **Train/Test Split**: 80% training, 20% testing
