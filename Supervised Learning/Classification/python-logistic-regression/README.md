@@ -15,8 +15,6 @@ This project implements a logistic regression model from scratch using Python, `
 - [Results](#results)
 - [Project Structure](#project-structure)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ## Project Overview
@@ -151,18 +149,6 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-Your Name - [@FabulousDartier](https://github.com/FabulousDartier)
-
-Project Link: [https://github.com/FabulousDartier/python-logistic-regression](https://github.com/FabulousDartier/python-logistic-regression)
-
----
 
 ## Acknowledgments
 
