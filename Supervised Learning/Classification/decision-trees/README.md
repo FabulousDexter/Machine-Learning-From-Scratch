@@ -6,7 +6,7 @@
 
 A comprehensive machine learning project implementing the Decision Tree algorithm from scratch for breast cancer diagnosis, featuring custom entropy/Gini calculations, recursive tree building, and detailed performance analysis.
 
-## � Project Overview
+## 🎯 Project Overview
 
 This project demonstrates the implementation of a Decision Tree classifier for binary classification of breast cancer tumors as either benign (B) or malignant (M). The implementation focuses on understanding the algorithm mechanics and provides educational value through:
 
@@ -17,7 +17,7 @@ This project demonstrates the implementation of a Decision Tree classifier for b
 - **Performance Evaluation**: Detailed accuracy metrics and model evaluation
 - **Algorithm Analysis**: Comparison of different impurity measures and hyperparameters
 
-## � Dataset
+## 📊 Dataset
 
 The project uses the Wisconsin Breast Cancer dataset with the following characteristics:
 
@@ -64,7 +64,7 @@ pip install numpy pandas matplotlib jupyter scikit-learn
    - Tree structure visualization
    - Comparison with scikit-learn
 
-## � Implementation Details
+## ⚙️ Implementation Details
 
 ### Custom Decision Tree Algorithm
 
@@ -128,8 +128,8 @@ Both custom and scikit-learn implementations achieve excellent accuracy on the b
 
 | Implementation | Accuracy | Precision | Recall | F1-Score |
 |----------------|----------|-----------|--------|----------|
-| **Custom Decision Tree** | 94.74% | 94.2% | 94.7% | 94.4% |
-| **Scikit-learn DecisionTreeClassifier** | 92.98% | 92.5% | 93.0% | 92.7% |
+| **Custom Decision Tree** | 93.86% | 94.0% | 93.0% | 93.0% |
+| **Scikit-learn DecisionTreeClassifier** | 96.49% | 97.0% | 96.0% | 96.0% |
 
 ### Performance Analysis
 
@@ -137,7 +137,7 @@ The Decision Tree implementation achieves excellent accuracy on the breast cance
 
 | Metric | Custom Implementation | Scikit-learn |
 |--------|----------------------|--------------|
-| **Best Accuracy** | 94.74% | 92.98% |
+| **Best Accuracy** | 93.86% | 96.49% |
 | **Optimal Depth** | 3 | 3 |
 | **Training Time** | O(n²×d×log n) | O(n²×d×log n) |
 | **Prediction Time** | O(log n) per sample | O(log n) per sample |
@@ -156,11 +156,11 @@ The Decision Tree implementation achieves excellent accuracy on the breast cance
 
 ### Key Insights
 
-- **Superior Performance**: Custom implementation achieves 94.74% vs scikit-learn's 92.98%
+- **Performance Comparison**: Scikit-learn achieves 96.49% vs custom implementation's 93.86%
 - **Entropy vs Gini**: Both criteria perform similarly on this dataset
 - **Tree Structure**: Relatively shallow trees (depth=3) work well
 - **Feature Importance**: Some features consistently chosen for early splits
-- **Educational Value**: Custom implementation demonstrates algorithm mechanics while achieving better performance
+- **Educational Value**: Custom implementation demonstrates algorithm mechanics while providing competitive performance
 
 ## 📁 Project Structure
 
@@ -192,7 +192,7 @@ This project teaches:
 5. **Overfitting Prevention**: Understanding stopping criteria and tree pruning
 6. **Decision Boundaries**: How trees create piecewise-constant decision regions
 
-## � Algorithm Characteristics
+## ⚡ Algorithm Characteristics
 
 **Decision Tree Algorithm Properties:**
 
@@ -215,7 +215,7 @@ This project teaches:
 - **Splitting Criterion**: Entropy vs Gini impurity
 - **Threshold Selection**: All unique feature values tested
 
-## � Future Enhancements
+## 🔮 Future Enhancements
 
 - [ ] **Tree Pruning**: Pre-pruning and post-pruning techniques
 - [ ] **Multi-class Support**: Extension to multi-class classification
