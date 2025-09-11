@@ -1,7 +1,6 @@
 # Machine Learning From Scratch 🤖
 
 [![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
 
 A comprehensive collection of machine learning algorithms implemented from scratch in Python. This repository serves as an educational resource for understanding the fundamental concepts and mathematical foundations behind popular ML algorithms.
@@ -177,10 +176,6 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 4. Add comprehensive documentation and comments
 5. Include a detailed README for your implementation
 6. Submit a pull request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🏆 Roadmap
 
