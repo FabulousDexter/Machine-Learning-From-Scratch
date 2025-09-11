@@ -3,7 +3,6 @@
 [![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white)](https://numpy.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A comprehensive machine learning project implementing Gaussian Naive Bayes classifier from scratch for breast cancer diagnosis, featuring both custom implementation and scikit-learn comparison with detailed performance analysis.
 
@@ -178,10 +177,6 @@ Contributions are welcome! Areas for improvement:
 - Feature importance analysis
 - Visualization enhancements
 - Documentation improvements
-
-## 📄 License
-
-This project is part of the Machine Learning From Scratch collection and follows the same MIT License.
 
 ---
 
