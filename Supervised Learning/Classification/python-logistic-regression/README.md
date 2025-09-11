@@ -1,7 +1,6 @@
 # Logistic Regression for Breast Cancer Diagnosis
 
 [![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
 
 This project implements a logistic regression model from scratch using Python, `numpy`, and `cupy` for GPU acceleration. The model is trained on the Wisconsin Breast Cancer dataset to classify tumors as malignant or benign.
