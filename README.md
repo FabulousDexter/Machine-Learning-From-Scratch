@@ -165,18 +165,6 @@ This repository is designed for:
 - **Researchers** needing to modify or extend existing algorithms
 - **Interview Preparation** for data science and ML engineering roles
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
-
-### How to Contribute:
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/new-algorithm`)
-3. Implement your algorithm following the existing structure
-4. Add comprehensive documentation and comments
-5. Include a detailed README for your implementation
-6. Submit a pull request
-
 ## 🏆 Roadmap
 
 ### Phase 1: Core Algorithms (In Progress)
@@ -196,20 +184,6 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 - [ ] Neural Networks (Multi-layer Perceptron)
 - [ ] Backpropagation Algorithm
 - [ ] Various Activation Functions
-
-### Phase 4: Enhancements
-- [ ] Performance optimizations
-- [ ] Additional datasets
-- [ ] Interactive visualizations
-- [ ] Algorithm comparison framework
-
-## 📬 Contact
-
-Feel free to reach out if you have questions or suggestions!
-
----
-
-⭐ **Star this repository if you find it helpful!** ⭐
 
 *Building ML algorithms from scratch to truly understand the magic behind the models.*
 
