@@ -3,7 +3,6 @@
 [![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white)](https://numpy.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A comprehensive machine learning project implementing the k-Nearest Neighbors (k-NN) algorithm from scratch for breast cancer diagnosis, featuring custom distance calculations, feature scaling, and detailed performance analysis.
 
@@ -223,11 +222,5 @@ Contributions are welcome! Areas for improvement:
 - Performance optimizations (KD-tree, LSH)
 - Advanced visualization techniques
 - Cross-validation framework
-
-## 📄 License
-
-This project is part of the Machine Learning From Scratch collection and follows the same MIT License.
-
----
 
 **📝 Note**: This implementation is for educational purposes to understand the mechanics of k-NN classification. For production use with large datasets, consider optimized libraries like scikit-learn with efficient data structures.
