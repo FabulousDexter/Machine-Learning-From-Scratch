@@ -15,7 +15,7 @@ This project implements a logistic regression model from scratch using Python, `
 - [Results](#results)
 - [Project Structure](#project-structure)
 - [Technologies Used](#technologies-used)
-- 
+  
 ## Project Overview
 
 The primary goal of this project is to build and understand the mechanics of logistic regression. This includes:
