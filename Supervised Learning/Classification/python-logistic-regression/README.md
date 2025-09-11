@@ -15,8 +15,7 @@ This project implements a logistic regression model from scratch using Python, `
 - [Results](#results)
 - [Project Structure](#project-structure)
 - [Technologies Used](#technologies-used)
-- [Contact](#contact)
-
+- 
 ## Project Overview
 
 The primary goal of this project is to build and understand the mechanics of logistic regression. This includes:
@@ -139,20 +138,3 @@ python-logistic-regression/
 - **Matplotlib** - Data visualization
 - **Scikit-learn** - Machine learning utilities and comparison
 - **Jupyter Notebook** - Interactive development environment
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## Acknowledgments
-
-- Wisconsin Breast Cancer dataset from UCI Machine Learning Repository
-- Inspiration from various machine learning courses and tutorials
-- CuPy team for GPU acceleration capabilities
-
