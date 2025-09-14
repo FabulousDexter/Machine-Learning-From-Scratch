@@ -38,11 +38,17 @@ This project aims to implement core machine learning algorithms without relying 
   - Gaussian Naive Bayes implementation
   - Probability calculations from scratch
   - Comparison with scikit-learn
+- [x] **Decision Trees** ✅
+  - Recursive tree building algorithm
+  - Information gain and entropy calculations
+  - Tree visualization and pruning techniques
+- [x] **Support Vector Machine (SVM)** ✅
+  - Gradient descent optimization
+  - Hinge loss implementation
+  - Margin maximization and hyperplane finding
 
 #### Upcoming Implementations
-- [ ] **Decision Trees**
 - [ ] **Random Forests**
-- [ ] **Support Vector Machine (SVM)**
 
 ### Unsupervised Learning
 - [ ] **Principal Component Analysis (PCA)**
@@ -101,8 +107,16 @@ Machine-Learning-From-Scratch/
 │       │   ├── knn.ipynb
 │       │   ├── dataset.csv
 │       │   └── README.md
-│       └── naive-bayes-model/
-│           ├── naive_bayes.ipynb
+│       ├── naive-bayes-model/
+│       │   ├── naive_bayes.ipynb
+│       │   ├── data.csv
+│       │   └── README.md
+│       ├── decision-trees/
+│       │   ├── decision_trees.ipynb
+│       │   ├── data.csv
+│       │   └── README.md
+│       └── support-vector-machines/
+│           ├── svm.ipynb
 │           ├── data.csv
 │           └── README.md
 ├── Unsupervised Learning/
@@ -136,6 +150,18 @@ Machine-Learning-From-Scratch/
 - **Key Features**: Gaussian probability distributions, Bayes theorem
 - **Use Case**: Probabilistic classification with assumption of feature independence
 - **Location**: `Supervised Learning/Classification/naive-bayes-model/`
+
+### 5. Decision Trees
+- **Dataset**: Breast cancer dataset
+- **Key Features**: Information gain, entropy calculations, recursive tree building
+- **Use Case**: Rule-based classification with interpretable decision paths
+- **Location**: `Supervised Learning/Classification/decision-trees/`
+
+### 6. Support Vector Machine (SVM)
+- **Dataset**: Breast cancer dataset
+- **Key Features**: Margin maximization, hinge loss, gradient descent optimization
+- **Use Case**: Maximum margin classification for linearly separable data
+- **Location**: `Supervised Learning/Classification/support-vector-machines/`
 
 ## 🛠️ Technologies Used
 
@@ -172,11 +198,11 @@ This repository is designed for:
 - [x] Logistic Regression  
 - [x] K-Nearest Neighbors
 - [x] Naive Bayes
-- [ ] Decision Trees
+- [x] Decision Trees
 - [ ] Random Forests
 
 ### Phase 2: Advanced Algorithms
-- [ ] Support Vector Machines
+- [x] Support Vector Machines
 - [ ] Principal Component Analysis
 - [ ] K-Means Clustering
 
