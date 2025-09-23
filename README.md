@@ -72,7 +72,7 @@ pip install numpy pandas matplotlib jupyter seaborn
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/Machine-Learning-From-Scratch.git
+   git clone https://github.com/FabulousDexter/Machine-Learning-From-Scratch.git
    cd Machine-Learning-From-Scratch
    ```
 
