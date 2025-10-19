@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Data files (optional - uncomment if you don't want to track large datasets)
+# *.csv
+# *.txt
+# *.json
+
+# Model files (optional - uncomment if models get too large)
+# *.pkl
+# *.h5
+# *.pth
