@@ -52,14 +52,19 @@ This project aims to implement core machine learning algorithms without relying 
   - Ensemble voting for robust predictions
 
 ### Unsupervised Learning
+- [x] **[K-Means Clustering](Unsupervised%20Learning/k-means-clustering/k-means-clustering.ipynb)** ✅
+  - FIFA 24 player segmentation
+  - Lloyd's algorithm implementation
+  - Real-time PCA visualization
 - [ ] **Principal Component Analysis (PCA)**
-- [ ] **K-Means Clustering**
 
 ### Deep Learning
-- [ ] **Neural Network**
-  - Multi-layer perceptron
+- [x] **[Neural Network](Neural%20Network/neural-network.ipynb)** ✅
+  - Multi-layer perceptron from scratch
   - Backpropagation algorithm
-  - Activation functions
+  - ReLU and Sigmoid activation functions
+  - MNIST digit classification (97.69% accuracy)
+  - GPU acceleration with CuPy
 
 ## 🚀 Quick Start
 
@@ -121,9 +126,13 @@ Machine-Learning-From-Scratch/
 │           ├── data.csv
 │           └── README.md
 ├── Unsupervised Learning/
-│   └── placeholder.txt
+│   └── k-means-clustering/
+│       ├── k-means-clustering.ipynb
+│       ├── male_fc_24_players.csv
+│       └── README.md
 └── Neural Network/
-    └── placeholder.txt
+    ├── neural-network.ipynb
+    └── README.md
 ```
 
 ## 🔬 Implemented Algorithms
@@ -170,6 +179,18 @@ Machine-Learning-From-Scratch/
 - **Use Case**: Robust classification using multiple decision trees with voting
 - **Location**: `Supervised Learning/Classification/random-forest/`
 
+### 8. [K-Means Clustering](Unsupervised%20Learning/k-means-clustering/k-means-clustering.ipynb)
+- **Dataset**: FIFA 24 male players dataset (~17,000+ players)
+- **Key Features**: Lloyd's algorithm, centroid optimization, real-time PCA visualization
+- **Use Case**: Player segmentation based on performance statistics
+- **Location**: `Unsupervised Learning/k-means-clustering/`
+
+### 9. [Neural Network](Neural%20Network/neural-network.ipynb)
+- **Dataset**: MNIST handwritten digits (70,000 images), Iris dataset
+- **Key Features**: Multi-layer perceptron, backpropagation, ReLU/Sigmoid activations, GPU acceleration
+- **Use Case**: Image classification achieving 97.69% accuracy on MNIST
+- **Location**: `Neural Network/`
+
 ## 🛠️ Technologies Used
 
 - **Python 3.8+**: Core programming language
@@ -177,7 +198,8 @@ Machine-Learning-From-Scratch/
 - **Pandas**: Data manipulation and analysis
 - **Matplotlib/Seaborn**: Data visualization
 - **Jupyter Notebook**: Interactive development environment
-- **CuPy**: GPU acceleration (for logistic regression)
+- **CuPy**: GPU acceleration (for logistic regression and neural networks)
+- **Scikit-learn**: Dataset loading and performance comparison
 
 ## 📚 Learning Resources
 
@@ -210,13 +232,14 @@ This repository is designed for:
 
 ### Phase 2: Advanced Algorithms
 - [x] Support Vector Machines
+- [x] K-Means Clustering
 - [ ] Principal Component Analysis
-- [ ] K-Means Clustering
 
-### Phase 3: Deep Learning
-- [ ] Neural Networks (Multi-layer Perceptron)
-- [ ] Backpropagation Algorithm
-- [ ] Various Activation Functions
+### Phase 3: Deep Learning (Completed ✅)
+- [x] Neural Networks (Multi-layer Perceptron)
+- [x] Backpropagation Algorithm
+- [x] ReLU and Sigmoid Activation Functions
+- [x] GPU Acceleration with CuPy
 
 *Building ML algorithms from scratch to truly understand the magic behind the models.*
 
