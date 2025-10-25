@@ -7,7 +7,7 @@
 
 A comprehensive implementation of a feedforward neural network built entirely from scratch using NumPy/CuPy, featuring custom backpropagation, multiple activation functions, GPU acceleration, and achieving **97.69% accuracy** on MNIST digit classification.
 
-## 🎯 Project Overview
+## Project Overview
 
 This project demonstrates a complete neural network implementation for multi-class classification, built without using high-level ML frameworks like TensorFlow or PyTorch. The implementation focuses on understanding the mathematical foundations and provides:
 
@@ -20,7 +20,7 @@ This project demonstrates a complete neural network implementation for multi-cla
 - **Multiple Datasets**: Tested on Iris (3-class) and MNIST (10-class) datasets
 - **Smart Initialization**: He initialization for ReLU, Xavier for Sigmoid
 
-## 📊 Datasets
+## Datasets
 
 ### 1. Iris Dataset
 - **Total Samples**: 150 flowers
@@ -36,7 +36,7 @@ This project demonstrates a complete neural network implementation for multi-cla
 - **Train/Test Split**: 80% training (56,000), 20% testing (14,000)
 - **Best Accuracy**: **97.69%**
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 ```bash
@@ -68,7 +68,7 @@ pip install cupy-cuda12x  # For CUDA 12.x
    - Evaluate performance
    - Visualize results
 
-## 🏗️ Architecture
+## Architecture
 
 ### Network Structure
 ```
@@ -87,7 +87,7 @@ Input Layer (784)  →  Hidden Layer 1 (256)  →  Hidden Layer 2 (128)  →  Hi
 | **Backpropagation** | Custom gradient computation using chain rule |
 | **Data Handling** | Shuffling and batching for stable training |
 
-## 📈 Training Results
+## Training Results
 
 ### Experiment Comparison
 
@@ -95,7 +95,7 @@ Input Layer (784)  →  Hidden Layer 1 (256)  →  Hidden Layer 2 (128)  →  Hi
 |------------|--------------|----|----|------------|----------|
 | **Baseline** | 784→128→64→10 | 0.005 | 100 | 128 | 96.79% |
 | **Optimized LR** | 784→128→64→10 | 0.01 | 150 | 128 | 97.57% |
-| **Deep Network** | 784→256→128→64→10 | 0.01 | 150 | 128 | **97.69%** ✨ |
+| **Deep Network** | 784→256→128→64→10 | 0.01 | 150 | 128 | **97.69%** |
 
 ### Performance Highlights
 - ✅ **Best Accuracy**: 97.69% on MNIST test set
@@ -110,7 +110,7 @@ Input Layer (784)  →  Hidden Layer 1 (256)  →  Hidden Layer 2 (128)  →  Hi
 4. **Batch Size**: 128 provides good balance between speed and stability
 5. **GPU Acceleration**: CuPy provides 3-5x speedup over NumPy
 
-## 💻 Implementation Details
+## Implementation Details
 
 ### Class Structure
 ```python
@@ -142,7 +142,7 @@ losses = nn.train(
 accuracy = evaluate(nn, X_test, y_test)
 ```
 
-## 🎨 Visualizations
+## Visualizations
 
 The notebook includes:
 - **Training Loss Curves**: Monitor convergence over epochs
@@ -151,7 +151,7 @@ The notebook includes:
 - **Sample Predictions**: Visual inspection of correct/incorrect predictions
 - **Architecture Diagrams**: Network structure visualization
 
-## 🔧 Advanced Features
+## Advanced Features
 
 ### GPU Acceleration
 ```python
@@ -177,7 +177,7 @@ nn.train(X, y, batch_size=None)
 nn.train(X, y, batch_size=128)
 ```
 
-## 📚 Mathematical Foundation
+## Mathematical Foundation
 
 ### Forward Propagation
 ```
@@ -202,7 +202,7 @@ Sigmoid: f(x) = 1 / (1 + e^(-x))
 Sigmoid': f'(x) = f(x) · (1 - f(x))
 ```
 
-## 🎯 Performance Tips
+## Performance Tips
 
 ### To Improve Accuracy Further:
 1. **Increase Network Capacity**: Use `[784, 512, 256, 128, 10]`
@@ -224,7 +224,7 @@ Sigmoid': f'(x) = f(x) · (1 - f(x))
 - **Slow training**: Enable GPU with `use_gpu=True` and install CuPy
 - **Low accuracy with sigmoid**: Use ReLU for hidden layers instead
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Neural Network/
@@ -233,7 +233,7 @@ Neural Network/
 └── .ipynb_checkpoints/    # Auto-generated (ignored by git)
 ```
 
-## 🔬 Experiments to Try
+## Experiments to Try
 
 1. **Different Architectures**: Compare shallow `[784, 512, 10]` vs deep `[784, 128, 128, 128, 10]`
 2. **Activation Functions**: Compare ReLU vs Sigmoid on same architecture
@@ -244,7 +244,7 @@ Neural Network/
 7. **Loss Functions**: Implement Cross-Entropy loss for better classification
 8. **Other Datasets**: Try Fashion-MNIST, CIFAR-10 (requires CNN)
 
-## 🎓 Learning Outcomes
+## Learning Outcomes
 
 By studying this implementation, you will understand:
 - ✅ How neural networks learn through backpropagation
@@ -254,7 +254,7 @@ By studying this implementation, you will understand:
 - ✅ The impact of hyperparameters on model performance
 - ✅ GPU acceleration principles in deep learning
 
-## 🤝 Future Enhancements
+## Future Enhancements
 
 **Potential Features to Add:**
 - ⏳ **Momentum Optimizer**: Accelerate convergence with velocity-based updates
@@ -269,31 +269,31 @@ By studying this implementation, you will understand:
 **Contributions Welcome:**
 Feel free to fork and add these features to improve the implementation!
 
-## 📝 Notes
+## Notes
 
 - **Pure NumPy Implementation**: No TensorFlow, PyTorch, or Keras dependencies
 - **Educational Focus**: Code prioritizes clarity over optimization
 - **GPU Optional**: Works perfectly on CPU, faster with CuPy/GPU
 - **Reproducible**: Fixed random seeds for consistent results
 
-## 🏆 Achievements
+## Achievements
 
-- ✨ **97.69% accuracy** on MNIST (top 2% behind state-of-the-art CNNs at ~99.7%)
-- ⚡ **GPU-accelerated** training with CuPy
-- 🎯 **Multiple datasets** supported (Iris, MNIST)
-- 🔧 **Production-ready** code with proper error handling
+- **97.69% accuracy** on MNIST (top 2% behind state-of-the-art CNNs at ~99.7%)
+- **GPU-accelerated** training with CuPy
+- **Multiple datasets** supported (Iris, MNIST)
+- **Production-ready** code with proper error handling
 
-## 📖 References
+## References
 
 - [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) by Michael Nielsen
 - [CS231n: Convolutional Neural Networks](http://cs231n.stanford.edu/)
 - [Deep Learning Book](https://www.deeplearningbook.org/) by Ian Goodfellow
 - [Backpropagation Calculus](https://www.youtube.com/watch?v=tIeHLnjs5U8) by 3Blue1Brown
 
-## 📄 License
+## License
 
 This project is part of the Machine-Learning-From-Scratch repository.
 
 ---
 
-**Built with ❤️ for learning and understanding neural networks from first principles**
+**Built with love for learning and understanding neural networks from first principles**
